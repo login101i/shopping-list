@@ -14,7 +14,7 @@ function App() {
   return (
     <Provider store={store}>
       <div className="App">
-        <h1>Hellooooo</h1>
+     
         <AppNavbar />
         <Container>
           <ItemModal />

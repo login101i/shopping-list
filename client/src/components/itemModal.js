@@ -64,12 +64,12 @@ class ItemModal extends Component {
                     <ModalBody>
                         <Form onSubmit={this.onSubmit}>
                             <FormGroup>
-                                <Label for="item">Item</Label>
+                                <Label for="item">Rzecz do kupienia:</Label>
                                 <Input
                                     type="text"
                                     name="name"
                                     id="item"
-                                    placeholder="add shopping item"
+                                    placeholder="Proszę wpisać tutaj"
                                     onChange={this.onChange}
                                 >
                                 </Input>
